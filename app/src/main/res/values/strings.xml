@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BMI APP</string>
+    <string name="title_activity_bar">BarActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="sasha_shpak">N</string>
+    <string name="bmi_main_count_text">COUNT</string>
+    <string name="bmi_main_nextAct_text">HISTORY</string>
+    <string name="bmi_main_weight_cm">Weight(KG)</string>
+    <string name="bmi_main_name">Name(Opt.)</string>
+    <string name="bmi_main_height_cm">Height(CM)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_name">Alex Rafalovich</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailsActivity"
+android:background="@color/colorPrimary">
+
+    <View
+            android:layout_width="397dp"
+            android:layout_centerInParent="true"
+            android:layout_height="171dp" android:id="@+id/view" android:background="@drawable/frame"/>
+    <TextView
+            android:text="Rost"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@id/textWynik"
+            android:layout_centerInParent="true"
+
+            android:layout_height="wrap_content" android:id="@+id/textRost"
+            android:visibility="visible"
+            android:textSize="24sp" android:layout_marginRight="-10dp"/>
+    <TextView
+            android:text="Puzo"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/textWynik"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content" android:id="@+id/textPuzo"
+            android:visibility="visible"
+            android:textSize="24sp"/>
+    <TextView
+            android:text="Wynik"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/textPuzo"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content" android:id="@+id/textWynik"
+            android:visibility="visible"
+            android:textSize="30sp"/>
+    <TextView
+            android:text="Info"
+            android:layout_width="wrap_content"
+            android:layout_above="@id/textPuzo"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" android:id="@+id/textInfo"
+            android:visibility="visible" android:textSize="30sp"/>
+</RelativeLayout>
