@@ -3,4 +3,11 @@
     <color name="colorPrimary">#F8ECD2</color>
     <color name="colorPrimaryDark">#FF5722</color>
     <color name="colorAccent">#000000</color>
+    <color name="colorBlue">#0B0CFF</color>
+    <color name="colorYellow">#FFF340</color>
+    <color name="colorRed">#FC0018</color>
+    <color name="colorToxic">#00FF00</color>
+    <color name="colorPink">#EF86DD</color>
+    <color name="colorGreen">#296B0E</color>
+    <color name="colorPoop">#1F7787</color>
 </resources>

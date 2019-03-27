@@ -19,8 +19,8 @@ android:background="@color/colorPrimary">
         <TextView
                 android:text="@string/about_name"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/about_height_text" android:id="@+id/textView"
-                android:textSize="30sp" android:textColor="@color/colorPrimaryDark"/>
+                android:layout_height="wrap_content" android:id="@+id/textView"
+                android:textSize="@dimen/bmi_size_text_medlarge" android:textColor="@color/colorPrimaryDark"/>
         <WebView
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/about_height_web" android:id="@+id/internat"/>
@@ -31,6 +31,6 @@ android:background="@color/colorPrimary">
                 android:id="@+id/progressBar" tools:visibility="visible"/>
         <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/about_height_img" app:srcCompat="@drawable/kavo" android:id="@+id/imageView3"/>
+                android:layout_height="wrap_content" app:srcCompat="@drawable/kavo" android:id="@+id/imageView3"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -10,11 +10,19 @@
     <string name="sasha_shpak">N</string>
     <string name="bmi_main_count_text">COUNT</string>
     <string name="bmi_main_nextAct_text">HISTORY</string>
-    <string name="bmi_main_weight_cm">Weight(KG)</string>
+    <string name="bmi_main_weight_kg">Weight (KG)</string>
     <string name="bmi_main_name">Name(Opt.)</string>
-    <string name="bmi_main_height_cm">Height(CM)</string>
-
+    <string name="bmi_main_height_cm">Height (CM)</string>
+    <string name="bmi_main_height_in">Height (IN)</string>
+    <string name="bmi_main_weight_po">Weight (PO)</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="about_name">Alex Rafalovich</string>
+    <string name="bmi_det_height">Rost</string>
+    <string name="bmi_det_mass">Puzo</string>
+    <string name="bmi_det_wynik">Wynik</string>
+    <string name="bmi_det_info">Info</string>
+    <string name="bmi_history_wartosc">Wartosc</string>
+    <string name="bmi_history_name">Name</string>
+    <string name="bmi_defaultText">TextView</string>
+    <string name="bmi_history_date">Date</string>
 </resources>

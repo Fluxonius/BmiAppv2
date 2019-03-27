@@ -9,39 +9,39 @@
 android:background="@color/colorPrimary">
 
     <View
-            android:layout_width="397dp"
+            android:layout_width="@dimen/bmi_width_frame"
             android:layout_centerInParent="true"
-            android:layout_height="171dp" android:id="@+id/view" android:background="@drawable/frame"/>
+            android:layout_height="@dimen/bmi_height_frame" android:id="@+id/view" android:background="@drawable/frame"/>
     <TextView
-            android:text="Rost"
+            android:text="@string/bmi_det_height"
             android:layout_width="wrap_content"
             android:layout_toLeftOf="@id/textWynik"
             android:layout_centerInParent="true"
 
             android:layout_height="wrap_content" android:id="@+id/textRost"
             android:visibility="visible"
-            android:textSize="24sp" android:layout_marginRight="-10dp"/>
+            android:textSize="@dimen/bmi_size_text_medium"/>
     <TextView
-            android:text="Puzo"
+            android:text="@string/bmi_det_mass"
             android:layout_width="wrap_content"
             android:layout_toRightOf="@id/textWynik"
             android:layout_centerInParent="true"
             android:layout_height="wrap_content" android:id="@+id/textPuzo"
             android:visibility="visible"
-            android:textSize="24sp"/>
+            android:textSize="@dimen/bmi_size_text_medium"/>
     <TextView
-            android:text="Wynik"
+            android:text="@string/bmi_det_wynik"
             android:layout_width="wrap_content"
             android:layout_below="@id/textPuzo"
             android:layout_centerInParent="true"
             android:layout_height="wrap_content" android:id="@+id/textWynik"
             android:visibility="visible"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/bmi_size_text_medlarge"/>
     <TextView
-            android:text="Info"
+            android:text="@string/bmi_det_info"
             android:layout_width="wrap_content"
             android:layout_above="@id/textPuzo"
             android:layout_centerHorizontal="true"
             android:layout_height="wrap_content" android:id="@+id/textInfo"
-            android:visibility="visible" android:textSize="30sp"/>
+            android:visibility="visible" android:textSize="@dimen/bmi_size_text_medlarge"/>
 </RelativeLayout>

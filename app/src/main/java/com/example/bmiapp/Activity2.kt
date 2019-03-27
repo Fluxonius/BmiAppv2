@@ -42,9 +42,9 @@ class Activity2 : AppCompatActivity() {
         val colors:ArrayList<Int> = intent.getIntegerArrayListExtra("color")
        val dates: ArrayList<String> = intent.getStringArrayListExtra("dates")
         val last10:Int
-        val andrei=0
+
         if (names.size-10<0){
-       last10=0} else last10=0
+       last10=0} else last10=names.size-10
 
 
         val names10=names.subList(last10,names.size)

@@ -5,21 +5,15 @@ import android.content.Intent
 import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.ContextMenu
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import android.view.View.*
-import android.widget.Toast
 import com.example.bmiapp.logic.BmiForInPo
 import com.example.bmiapp.logic.BmiForKgCm
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.android.synthetic.main.activity_main.*
-import java.lang.reflect.Type
-import java.time.Clock
 import java.time.LocalDate
-import java.util.*
 import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity(){
@@ -179,8 +173,8 @@ class MainActivity : AppCompatActivity(){
 
     }
    fun mode0():Boolean{
-        rost.text = "Height (CM)"
-        puzo.text="Weight (KG)"
+       rost.text=getText(R.string.bmi_main_height_cm)
+       puzo.text=getText(R.string.bmi_main_weight_kg)
         dataPuzo.text=null
         dataRost.text=null
         dataImie.text=null
@@ -189,8 +183,8 @@ class MainActivity : AppCompatActivity(){
         return true
     }
     fun  mode1():Boolean{
-        rost.text = "Height (IN)"
-        puzo.text="Weight (PO)"
+        rost.text=getText(R.string.bmi_main_height_in)
+        puzo.text=getText(R.string.bmi_main_weight_po)
         dataPuzo.text=null
         dataRost.text=null
         dataImie.text=null

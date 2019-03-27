@@ -15,4 +15,22 @@
     <dimen name="bmi_width_img">312dp</dimen>
     <dimen name="bmi_height_img">185dp</dimen>
     <dimen name="bmi_width_elements">0dp</dimen>
+    <dimen name="bmi_margin_start_img">8dp</dimen>
+    <dimen name="bmi_margin_top_img">16dp</dimen>
+    <dimen name="bmi_size_text_medium">24sp</dimen>
+    <dimen name="bmi_height_button">64dp</dimen>
+    <dimen name="bmi_height_text">22dp</dimen>
+    <dimen name="bmi_margin_top">16dp</dimen>
+    <dimen name="bmi_width_wynik">230dp</dimen>
+    <dimen name="bmi_height_wynik">75dp</dimen>
+    <dimen name="bmi_size_text_wynik">50sp</dimen>
+    <dimen name="bmi_margin_bottom_elements">90dp</dimen>
+    <dimen name="bmi_width_det">65dp</dimen>
+    <dimen name="bmi_height_det">30dp</dimen>
+    <dimen name="bmi_width_button">315dp</dimen>
+    <dimen name="bmi_margin_top_land_text">45dp</dimen>
+    <dimen name="bmi_width_frame">400dp</dimen>
+    <dimen name="bmi_height_frame">170dp</dimen>
+    <dimen name="bmi_size_text_medlarge">30sp</dimen>
+    <dimen name="bmi_margin_left_history_text">70dp</dimen>
 </resources>
